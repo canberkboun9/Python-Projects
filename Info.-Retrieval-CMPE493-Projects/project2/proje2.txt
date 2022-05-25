@@ -1,0 +1,28 @@
+dokümanda kaç token var bunu tutçaz ayrı bir yerde ki length normalization yapabilelim.
+
+document frequency: 1 ve 5 var yani df(canberk) = 2. tabi başka bi file da yaratabiliriz.
+term frequency: tf(canberk,1) = 3. Çünkü 1, 4, 5167 yani 3 kere geçiyor 1. doc'ta canberk
+ dict{canberk = [1:<1,4,5167>, 5:<2,5,7,9>],
+      ali = 	[3:<2,4,7,12>, 5:<3,6,8,10>]} 
+
+indexleri bulabilmek için:
+https://stackoverflow.com/questions/5419204/index-of-duplicates-items-in-a-python-list
+phrase querylerde kelimeleri AND'leyip gelen sonuçlara göre indexlere bakmak lazım.
+https://www.youtube.com/watch?v=QVVvx_Csd2I
+
+query geldi: cocoa export shipment tonne
+
+cocoa OR export OR shipment OR tonne: sonucunda bunların geçtiği document'ları buluyorsun. 
+
+kodda 125. satır main.py de kaldım
+
+
+
+en son cosine'ları sort etmek için:
+https://stackoverflow.com/questions/3121979/how-to-sort-a-list-tuple-of-lists-tuples-by-the-element-at-a-given-index
+https://stackoverflow.com/questions/613183/how-do-i-sort-a-dictionary-by-value
+list of tuple yaparım sonra sort ederim tuple'ın 2. elemanına göre yani cos value.
+
+
+index duplicate halloldu.
+document length halloldu.
