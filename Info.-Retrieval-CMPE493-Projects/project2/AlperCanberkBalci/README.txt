@@ -1,5 +1,7 @@
 ReadMe file for Cmpe493 Project1 2021 Fall Bogazici University
 
+Document retrieval system for simple phrase and free text queries using the positional inverted indexing scheme
+
 Python version = 3.8
 
 1.1- First module, that is, indexing part is the main.py file.
