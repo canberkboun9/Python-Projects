@@ -1,5 +1,7 @@
 ReadMe file for Cmpe493 Project4 2021 Fall Bogazici University
 
+PageRank-based method to identify the most important people occurring in news articles.
+
 Python version = 3.8.12
 
 1.1- Only module, that is, the main.py file.
