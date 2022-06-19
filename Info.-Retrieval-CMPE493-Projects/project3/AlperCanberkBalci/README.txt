@@ -1,5 +1,7 @@
 ReadMe file for Cmpe493 Project3 2021 Fall Bogazici University
 
+Multinomial Naive Bayes (NB) and k Nearest Neighbor (kNN) algorithms for text classification. 
+
 Python version = 3.8
 
 1.1- Only module, that is, the main.py file.
